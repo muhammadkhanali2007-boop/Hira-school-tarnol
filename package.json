@@ -4,9 +4,9 @@
   "description": "��#\u0000 \u0000H\u0000i\u0000r\u0000a\u0000-\u0000s\u0000c\u0000h\u0000o\u0000o\u0000l\u0000-\u0000t\u0000a\u0000r\u0000n\u0000o\u0000l\u0000\r\u0000 \u0000",
   "main": "public/main.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "node ./node_modules/vite/bin/vite.js",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
