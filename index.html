@@ -45,7 +45,7 @@
         <li><a href="admission.html">Admission</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="admission.html" class="btn btn-gold">Apply Now</a></li>
+        <li><button type="button" class="btn btn-gold" data-admission-chat-open>Apply Now</button></li>
       </ul>
     </div>
   </header>
@@ -66,7 +66,7 @@
             <li>Quality education with Islamic values, from Playgroup to Class 3.</li>
             <li>Located in Tarnol, Islamabad.</li>
           </ul>
-          <a href="admission.html" class="hero-cta">Admission Open</a>
+          <button type="button" class="hero-cta" data-admission-chat-open>Admission Open</button>
         </div>
       </div>
     </section>
@@ -194,7 +194,7 @@
         <h2 id="cta-heading">Plan a visit or ask a question</h2>
         <p>Admissions for <strong>2025–26</strong> are open with limited seats. Meet our team, see the classrooms, and learn about fees and the enrolment process — we are happy to help families in Tarnol and nearby sectors.</p>
         <div class="home-cta-actions">
-          <a href="admission.html" class="btn btn-gold">Apply for admission</a>
+          <button type="button" class="btn btn-gold" data-admission-chat-open>Apply for admission</button>
           <a href="contact.html" class="btn btn-outline-white">Contact the campus</a>
         </div>
       </div>
@@ -254,6 +254,8 @@
     </div>
   </footer>
 
+  <div id="admission-chat-root"></div>
+  <script type="module" src="/src/admission-chat-entry.jsx"></script>
   <script src="main.js" defer></script>
 </body>
 </html>

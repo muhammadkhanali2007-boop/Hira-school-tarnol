@@ -39,7 +39,7 @@
         <li><a href="admission.html" class="active">Admission</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="admission.html" class="btn btn-gold">Apply Now</a></li>
+        <li><button type="button" class="btn btn-gold" data-admission-chat-open>Apply Now</button></li>
       </ul>
     </div>
   </header>
@@ -156,6 +156,8 @@
     </div>
   </footer>
 
+  <div id="admission-chat-root"></div>
+  <script type="module" src="/src/admission-chat-entry.jsx"></script>
   <script src="main.js" defer></script>
 </body>
 </html>

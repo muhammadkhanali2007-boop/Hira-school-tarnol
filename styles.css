@@ -140,6 +140,11 @@
     }
     .nav-links a:hover { color: var(--green); }
 
+    .nav-links button.btn {
+      font-family: inherit;
+      margin: 0;
+    }
+
     .btn {
       display: inline-flex;
       align-items: center;
@@ -322,6 +327,15 @@
     }
     .hero-cta:active {
       transform: translateY(0);
+    }
+
+    button.hero-cta {
+      border: none;
+      cursor: pointer;
+      font: inherit;
+      appearance: none;
+      -webkit-appearance: none;
+      text-decoration: none;
     }
 
     @media (max-width: 640px) {
